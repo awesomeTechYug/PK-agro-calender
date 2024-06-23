@@ -10,7 +10,7 @@ function TodayPrice(){
         </div>
        <div className="flex justify-center">
 
-       <div className=' my-1 py-3  flex flex-col justify-center bg-white rounded-2xl  border-2'>
+       <div className=' my-1 py-3  flex flex-col justify-center bg-yellow-100 rounded-2xl  border-2'>
         <div className=" flex m-2 divide-x divide-gray-400">
             <h2 className=" pr-20 pl-4">Name</h2>
             <h2 className="pr-2 pl-2 ">Max Price</h2>

@@ -14,13 +14,14 @@ function WeatherStatus(){
         const response = await axios.get(
           `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`
         );
+        console.log(response);
         setWeatherData(response.data);
       } catch (error) {
         console.log(error);
       }
     };
     useEffect(()=>{
-        fetchWeatherData();
+        fetchWeatherData(); 
     },[])
   
     const handleSubmit = (event) => {
@@ -30,20 +31,15 @@ function WeatherStatus(){
   
     return (
       <div>
-        {/* <form onSubmit={handleSubmit}>                  //to input city name
-          <input
-            type="text"
-            placeholder="Enter city name"
-            value={city}
-            onChange={(event) => setCity(event.target.value)}
-          />
-          <button type="submit">Check</button>
-        </form> */}
         {weatherData && (
-          <div>
+          <div className="pt-3 -mb-3">
             <h2>{weatherData.name}</h2>
+            <img  alt="PK"
+                src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`}
+                className="w-12 -my-3"
+                        />
             <p>{weatherData.weather[0].description}</p>
-            <p>Temperature: {weatherData.main.temp}</p>
+            <p>Temperature: {Math.round(weatherData.main.temp- 273.15)}°C</p> 
           </div>
         )}
       </div>
@@ -79,9 +75,9 @@ function ADtoBS(){
 // calculateAge('YYYY-MM-DD') - calculate age from BS date.
     return(
         <>
-        <div className=' my-1 p-3 '>
+        <div className=' my-1 p-3'>
         <span>
-            <p>{nepalidate} BS</p>
+            <h1>{nepalidate} BS</h1>
             <h2>{time.toLocaleTimeString()}</h2>
             </span>
         </div>
