@@ -1,9 +1,11 @@
 function Layout({children}){
     return(
         <>
-         <div className=" w-screen  bg-gradient-to-r from-lime-100 to-green-200 p-1 flex gap-5 fixed items-center ">
+         <div className=" w-screen  bg-gradient-to-r from-lime-100 to-green-200 p-1  fixed items-center ">
+         <a href="/" className="flex gap-5">
          <img src="/PK-Krishi-calendar.png" alt="Logo pk calendar"  className=" h-10 rounded-full"/>
-            <h2 className=' font-bold flex'>तपाईलाई स्वागत छ</h2>
+         <h2 className=' font-bold flex items-center'>तपाईलाई स्वागत छ</h2>
+         </a>
         </div>
         
             <div className="py-3 pt-16 bg-lime-50">
@@ -26,7 +28,7 @@ function Layout({children}){
        <div className=" flex flex-col justfy center text-white">
        <span className="flex justify-center gap-5">
        <a href="/" className=""><h2>contact</h2></a>
-       <a href="/" className=""><h2>about</h2></a>
+       <a href="/about" className=""><h2>about</h2></a>
        <a href="/" className=""><h2>story</h2></a>
        <a href="/" className=""><h2>services</h2></a>
        </span>

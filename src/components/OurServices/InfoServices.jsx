@@ -12,7 +12,7 @@ function InfoServices(){
                 infoServices.map((item, ind) => (
                     <span key={ind} className="shadow-inner w-[110px] h-[110px] bg-white flex justify-center items-center  flex-col">
                         <img src={item.icon} alt="info icon"  className="  w-16"/>
-                        <p>{item.infoName}</p>
+                        <p >{item.infoName}</p>
                     </span>
                 ))
                }

@@ -56,8 +56,8 @@ export const infoServices =[
         infoName: "कृषि शाखा सम्पर्क"
     },
     {
-        icon: "agrogrant.jpg ",
-        infoName: "कृषि अनुदान "
+        icon: "agrogrant.jpg ", 
+        infoName: "कृषि अनुदान सूचना"
     },
 
 ]
