@@ -1,57 +1,86 @@
-
 export const servicesList =[
     {
         icon: './weatherapp.png',
-        service: "weather",
+        service: "मौसम जानकारी",
         bgColor: "bg-indigo-500"
     },
     {
         icon: "growth.png",
-        service: "Market Price",
+        service: "बजार मूल्य तथ्याङ्क",
         bgColor: "bg-fuchsia-500"
     },
     {
         icon: "gardener.png",
-        service: "Agro Inputs ",
+        service: "कृषि सामग्री ",
         bgColor: "bg-yellow-500"
     },
     {
         icon: "dealer.png",
-        service: " Dealers",
+        service: " कृषि व्यापारीहरु",
         bgColor: "bg-sky-500"
     },
     {
         icon: "conversation.png",
-        service: "Agro Advisory",
+        service: "कृषि सल्लाह",
         bgColor: "bg-emerald-500"
     },
     {
         icon: "location.png",
-        service: "Plant Protection",
+        service: "बिरुवा संरक्षण",
         bgColor: "bg-rose-500"
     }
+
+];
+
+
+
+export const infoServices =[
+    {
+        icon: "agroinfo.png ",
+        infoName: "बाली ज्ञान "
+    },
+    {
+        icon: "croppest.jpg ",
+        infoName: "रोग कीरा "
+    },
+    {
+        icon: "cropcalender.jpg ",
+        infoName: "फसल क्यालेन्डर "
+    },
+    {
+        icon: "agrotraining.png ",
+        infoName: " तालिम"
+    },
+    {
+        icon: "agrocenter.png ",
+        infoName: "कृषि शाखा सम्पर्क"
+    },
+    {
+        icon: "agrogrant.jpg ",
+        infoName: "कृषि अनुदान "
+    },
 
 ]
 
 export const proServicesList = [
     {
-        list: " Agri Statistics",
+        list: " नेपाल कृषि तथ्याङ्क",
         color: 'sky-200'
     },
     {
-        list: "  Crop Harvest Calender",
+        list: " बिरुवा रोपण र फसल क्यालेन्डर",
         color: 'green-100'},
     {
-        list: " Commoditiy Market Prediction ",
+        list: " कृषि बजार भविष्यवाणी",
         color: 'sky-200'},
     {
-        list: "  District Wise Crop Data",
+        list: " जिल्ला अनुसार फसल डाटा",
         color: 'green-100'},
     {
-        list: "  Cost of Production/ Cropping Pattern",
+        list: " उत्पादन लागत / फसल अभ्यासहरू",
         color: 'sky-200'},
     {
-        list: "  Post Harvest Practices",
+        list: "फसल बजार र बिक्री यवस्थापन",
         color: 'green-100'
     },
 ];
@@ -83,4 +112,64 @@ export const blogList = [
         title: 'Here are ways to balance the pH in your soil.'
     }
 
-]
+];
+
+
+
+export const servicesList_eng =[
+    {
+        icon: './weatherapp.png',
+        service: "weather",
+        bgColor: "bg-indigo-500"
+    },
+    {
+        icon: "growth.png",
+        service: "Market Price",
+        bgColor: "bg-fuchsia-500"
+    },
+    {
+        icon: "gardener.png",
+        service: "Agro Inputs ",
+        bgColor: "bg-yellow-500"
+    },
+    {
+        icon: "dealer.png",
+        service: " Dealers",
+        bgColor: "bg-sky-500"
+    },
+    {
+        icon: "conversation.png",
+        service: "Agro Advisory",
+        bgColor: "bg-emerald-500"
+    },
+    {
+        icon: "location.png",
+        service: "Plant Protection",
+        bgColor: "bg-rose-500"
+    }
+
+];
+
+
+export const proServicesList_eng = [
+    {
+        list: " Agri Statistics",
+        color: 'sky-200'
+    },
+    {
+        list: "  Crop Harvest Calender",
+        color: 'green-100'},
+    {
+        list: " Commoditiy Market Prediction ",
+        color: 'sky-200'},
+    {
+        list: "  District Wise Crop Data",
+        color: 'green-100'},
+    {
+        list: "  Cost of Production/ Cropping Pattern",
+        color: 'sky-200'},
+    {
+        list: "  Post Harvest Market & Sales",
+        color: 'green-100'
+    },
+];

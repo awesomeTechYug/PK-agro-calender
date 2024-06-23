@@ -3,13 +3,19 @@ function Layout({children}){
         <>
          <div className=" w-screen  bg-gradient-to-r from-lime-100 to-green-200 p-1 flex gap-5 fixed items-center ">
          <img src="/PK-Krishi-calendar.png" alt="Logo pk calendar"  className=" h-10 rounded-full"/>
-            <h1 className=' font-bold flex'>PK Krishi Patro</h1>
+            <h2 className=' font-bold flex'>तपाईलाई स्वागत छ</h2>
         </div>
         
-            <div className="bg-green-100 py-3 pt-16">
+            <div className="py-3 pt-16 bg-lime-50">
                 {children}
             </div>
         
+
+        {/* Footer */}
+        <div className="flex justify-center bg-lime-50 ">
+        <img src="applogo.png" alt="PK Krishi Patro"  className="flex justify-center w-[150px]  rounded-xl hover:border-2 hover:border-lime-500" />
+        </div>
+     
         <div className=" w-screen bg-black p-3">
         <div className=" flex gap-2 justify-center">
             <h1 className=' font-bold flex text-white'>Krishi Patro</h1>

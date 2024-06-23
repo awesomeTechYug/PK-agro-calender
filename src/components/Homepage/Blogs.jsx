@@ -3,8 +3,8 @@ import { blogList } from "../../const/const";
 function Blogs(){
     return(
         <>
-        <div  className=" flex flex-col justify-center bg-white rounded-2xl w-[375px] border-2 pt-2 ">
-           <h1 className="flex justify-center">Blogs</h1>
+        <div  className=" flex flex-col justify-center rounded-2xl w-[375px] border-2 pt-2 ">
+           <h2 className="flex justify-center font-bold">कृषि समाचार</h2>
             <div className="divide-y divide-gray-400 h-[350px] overflow-y-scroll ">
             {
                 blogList.map((data, ind)=>(
