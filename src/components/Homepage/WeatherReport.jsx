@@ -35,7 +35,8 @@ function WeatherStatus(){
           <div className="pt-3 -mb-3">
             <h2>{weatherData.name}</h2>
             <img  alt="PK"
-                src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`}
+                // src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`}
+                src={`./weather-icon/${weatherData.weather[0].icon}@2x.png`} 
                 className="w-12 -my-3"
                         />
             <p>{weatherData.weather[0].description}</p>
