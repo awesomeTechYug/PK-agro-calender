@@ -3,7 +3,7 @@ import { servicesList } from "../../const/const";
 function ServicesGrid(){
     return(
         <>
-        <div className=" grid grid-cols-2 gap-8 my-8 mb-2">
+        <div className=" grid grid-cols-2 gap-8 my-8 mb-5">
 
         {servicesList.map((items, ind) => (           
             <div className={` w-[150px]  h-28 pt-4 ${items.bgColor} rounded-md hover:scale-105 hover:bg-lime-600 hover:border-2 hover:border-sky-800 `} key={ind} >

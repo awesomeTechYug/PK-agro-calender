@@ -8,6 +8,7 @@ import WeatherStatus, { ADtoBS } from "./WeatherReport"
 import Layout from "../Layout/Layout"
 import ChooseCity from "../weathercomponent/chooseCity"
 import InfoServices from "../OurServices/InfoServices"
+import TodayPricewidget from "./TodayPricewidget"
 
 
 
@@ -31,18 +32,14 @@ return(
       </div>
       </div>
 
-      <div className="flex justify-center">
-      <div className="my-1  rounded-xl w-[375px] shadow">
-          <div className="flex justify-center m-3">
-            <PKCalendar/>
-          </div>
-      </div>
+
+      <div className="my-5">
+      <div className="flex flex-col justify-center rounded-2xl  py-1 mx-auto border-green-800 hover:border-orange-500   bg-green-300 border-2 w-[370px]">
+        {/* <TodayPrice/> */}
+        <TodayPricewidget />
       </div>
 
-      <div className="flex flex-col justify-center my-1">
-        <TodayPrice/>
       </div>
-
       <div className="flex justify-center ">
         <InfoServices/>
       </div>
@@ -50,10 +47,21 @@ return(
       <div className="flex justify-center ">
         <ServicesGrid/>
       </div>
+
+      <div className="flex justify-center">
+      <div className="my-1  rounded-xl w-[375px] shadow">
+        <h2 className="flex justify-center m-3 font-bold">महिना अनुसार फसल जानकारी</h2>
+          <div className="flex justify-center m-3">
+            <PKCalendar/>
+          </div>
+      </div>
+      </div>
       
       <div className="flex justify-center">
         <ProServices/>
       </div>
+
+  
 
       <div className="flex justify-center mt-3 ">  
         <Blogs/>
