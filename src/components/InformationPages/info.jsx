@@ -15,7 +15,7 @@ function Info(){
         </head>
         <ResponsiveNav/>
   
-        <iframe src="./../src/components/InformationPages/info.html" className="w-full h-screen"></iframe>
+        <iframe src="./htmlFiles/Hamropatroinfo.html" className="w-full h-screen"></iframe>
  
         </>
     )
