@@ -13,7 +13,7 @@ function Info(){
         <meta name="keywords" content="keywords,here" />
         </head>
         <ResponsiveNav/>
-        <iframe src="..\src\components\InformationPages\info.html" frameborder="0" className="w-full h-[92.5vh]"></iframe>
+        <iframe src=".\..\src\components\InformationPages\info.html" frameborder="0" className="w-full h-[92.5vh]"></iframe>
         </>
     )
 
