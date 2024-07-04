@@ -1,3 +1,4 @@
+import React from "react"
 import ResponsiveNav from "../Layout/responsiveNav";
 
 function Info(){
@@ -13,9 +14,9 @@ function Info(){
         <meta name="keywords" content="keywords,here" />
         </head>
         <ResponsiveNav/>
-        <p>hi</p>
-        <iframe src=".\..\src\components\InformationPages\info.html" className="w-full h-screen"></iframe>
-        <p>hello friends</p>
+  
+        <iframe src="./../src/components/InformationPages/info.html" className="w-full h-screen"></iframe>
+ 
         </>
     )
 
