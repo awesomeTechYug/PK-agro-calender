@@ -18,7 +18,13 @@ return(
     <>
     <Layout>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kishi Patro is a comprehensive Nepali agricultural app empowering farmers with real-time market prices, crop calendars, agro-advisory, and expert guidance. Download the app for essential & pro features to enhance your agricultural practices and cultivate success."/>
+    <meta name="keywords" content="kishi patro nepal, Vegetable Rates and Price today in Nepal, Vegetable Rates Today, Vegetable Rate in Nepal, Kalimati Vegetable. agriculture app nepal, nepali farmer app, cost of production agriculture nepal"/>
+    <meta name="author" content="PK Bahuudeshua Krishi Farm Nepal"/>
+    <title>PK Krishi Patro - तरकारी बजार मूल्य, बजार विकास र कृषि जानकारी</title>
+    </head>
 
       <div className="flex justify-center mb-2  text-lime-900 ">
       <div className='  px-3 rounded-xl w-[375px] shadow-md'>
@@ -60,8 +66,6 @@ return(
       <div className="flex justify-center">
         <ProServices/>
       </div>
-
-  
 
       <div className="flex justify-center mt-3 ">  
         <Blogs/>
