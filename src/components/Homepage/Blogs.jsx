@@ -3,7 +3,7 @@ import { blogList } from "../../const/const";
 function Blogs(){
     return(
         <>
-        <div  className=" flex flex-col justify-center rounded-2xl w-[375px] border-2 pt-2 ">
+        <div  className=" flex flex-col justify-center rounded-2xl w-[375px] border-2 py-2 ">
            <h2 className="flex justify-center font-bold">कृषि समाचार</h2>
             <div className="divide-y divide-gray-400 h-[350px] overflow-y-scroll ">
             {
@@ -16,7 +16,6 @@ function Blogs(){
             ))
             }
             </div>
-            <h5 className="flex justify-center   mb-1">Read More</h5>
         </div>
         
         </>

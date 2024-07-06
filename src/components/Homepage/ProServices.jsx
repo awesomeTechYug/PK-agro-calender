@@ -7,9 +7,11 @@ function ProServices(){
             <h2 className="flex justify-center pt-2 font-extrabold">अन्य विशेष सेवाहरू</h2>
 
         {proServicesList.map((item, ind) =>(
+            <a href="/contact">
             <p className= {` p-2 mx-5 my-3 bg-${item.color} hover:scale-105 rounded-md border-green-500 border-2 hover:border-red-500 hover:bg-pink-200 `} key={ind}>
               {item.list} 
           </p>
+            </a>
         ))}
 
             

@@ -37,27 +37,33 @@ export const servicesList =[
 export const infoServices =[
     {
         icon: "agroinfo.png ",
-        infoName: "बाली ज्ञान "
+        infoName: "बाली ज्ञान ",
+        url : '/vegetablesinfo'
     },
     {
         icon: "croppest.jpg ",
-        infoName: "रोग कीरा "
+        infoName: "रोग कीरा ",
+        url : '/pestinfo',
     },
     {
         icon: "cropcalender.jpg ",
-        infoName: "फसल क्यालेन्डर "
+        infoName: "फसल क्यालेन्डर ",
+        url : '/krishipatro-info',
     },
     {
         icon: "agrotraining.png ",
-        infoName: " तालिम"
+        infoName: " तालिम",
+        url : '/agrotraining',
     },
     {
         icon: "agrocenter.png ",
-        infoName: "कृषि शाखा सम्पर्क"
+        infoName: "कृषि शाखा सम्पर्क",
+        url : '/agrodepartment',
     },
     {
         icon: "agrogrant.jpg ", 
-        infoName: "कृषि अनुदान सूचना"
+        infoName: "कृषि अनुदान सूचना",
+        url : '/agrogrants',
     },
 
 ]

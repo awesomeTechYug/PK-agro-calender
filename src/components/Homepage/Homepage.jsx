@@ -17,13 +17,12 @@ function Homepage() {
 return(
     <>
     <Layout>
-
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Kishi Patro is a comprehensive Nepali agricultural app empowering farmers with real-time market prices, crop calendars, agro-advisory, and expert guidance. Download the app for essential & pro features to enhance your agricultural practices and cultivate success."/>
-    <meta name="keywords" content="kishi patro nepal, Vegetable Rates and Price today in Nepal, Vegetable Rates Today, Vegetable Rate in Nepal, Kalimati Vegetable. agriculture app nepal, nepali farmer app, cost of production agriculture nepal"/>
+    <meta name="description" content="सफल खेती गर्न आवश्यक उपकरण र ज्ञानको साथ नेपालका सबै अनुभव स्तरका किसानहरूलाई सशक्त बनाउँदै। Empowering farmers of all experience levels in Nepal with essential tools and knowledge to cultivate success."/>
+    <meta name="keywords" content=" Vegetable Rates and Price today in Nepal, Vegetable Rates Today"/>
     <meta name="author" content="PK Bahuudeshua Krishi Farm Nepal"/>
-    <title>PK Krishi Patro - तरकारी बजार मूल्य, बजार विकास र कृषि जानकारी</title>
+    <title>Sampurna Krishi : सम्पुर्ण कृषि - All Agriculture One Stop Destination</title>
     </head>
 
       <div className="flex justify-center mb-2  text-lime-900 ">
@@ -62,14 +61,24 @@ return(
           </div>
       </div>
       </div>
+
+      <div className="flex justify-center gap-5 mt-2 -mb-2  ">
+            <a href="/krishipatro-info">
+            <img src="applogo.png" alt="PK Krishi Patro"  className="flex justify-center w-[150px]  rounded-xl hover:border-4 border-2 border-lime-500 hover:border-orange-500" />
+            </a>
+
+            <a href="/krishipatro-info">
+            <img src="applogo.png" alt="PK Krishi Patro"  className="flex justify-center w-[150px]  rounded-xl hover:border-4 border-2 border-lime-500 hover:border-orange-500" />
+            </a>
+        </div>
       
       <div className="flex justify-center">
         <ProServices/>
       </div>
 
-      <div className="flex justify-center mt-3 ">  
+      {/* <div className="flex justify-center mt-3 ">  
         <Blogs/>
-      </div>
+      </div> */}
 
    </Layout>
    

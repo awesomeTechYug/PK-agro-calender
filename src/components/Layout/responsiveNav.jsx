@@ -56,7 +56,7 @@ function ResponsiveNav() {
             </nav>
         
        
-            <div class="container shadow-lg mx-auto bg-white mt-12 md:mt-12">
+            <div class="container shadow-lg mx-auto bg-white ">
         
             </div>
         
