@@ -6,7 +6,6 @@ import ServicesGrid from "./ServcesGrid"
 import TodayPrice from "./TodayPrice"
 import WeatherStatus, { ADtoBS } from "./WeatherReport"
 import Layout from "../Layout/Layout"
-import ChooseCity from "../weathercomponent/chooseCity"
 import InfoServices from "../OurServices/InfoServices"
 import TodayPricewidget from "./TodayPricewidget"
 
@@ -26,13 +25,10 @@ return(
     </head>
 
       <div className="flex justify-center mb-2  text-lime-900 ">
-      <div className='  px-3 rounded-xl w-[375px] shadow-md'>
+      <div className='  px-3 rounded-xl w-[375px] pb-2  bg-white shadow-md'>
         <div className="flex justify-between">
         <ADtoBS/>
         < WeatherStatus/>
-        </div>
-        <div className="pb-1">
-          <ChooseCity/>  {/* also show weekly forcast */}
         </div>
       </div>
       </div>
@@ -64,11 +60,11 @@ return(
 
       <div className="flex justify-center gap-5 mt-2 -mb-2  ">
             <a href="/krishipatro-info">
-            <img src="applogo.png" alt="PK Krishi Patro"  className="flex justify-center w-[150px]  rounded-xl hover:border-4 border-2 border-lime-500 hover:border-orange-500" />
+            <img src="applogo2.png" alt="PK Krishi Patro"  className="flex justify-center w-[150px]  rounded-xl hover:border-4 border-2 border-lime-500 hover:border-orange-500" />
             </a>
 
-            <a href="/krishipatro-info">
-            <img src="applogo.png" alt="PK Krishi Patro"  className="flex justify-center w-[150px]  rounded-xl hover:border-4 border-2 border-lime-500 hover:border-orange-500" />
+            <a href="/videoresources">
+            <img src="krishiWatch.png" alt="PK Krishi Patro"  className="flex justify-center w-[150px]  rounded-xl hover:border-4 border-2 border-lime-500 hover:border-orange-500" />
             </a>
         </div>
       

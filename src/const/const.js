@@ -2,32 +2,38 @@ export const servicesList =[
     {
         icon: './weatherapp.png',
         service: "मौसम जानकारी",
-        bgColor: "bg-indigo-500"
+        bgColor: "bg-indigo-500",
+        url: "/weatherreport"
     },
     {
         icon: "growth.png",
         service: "बजार मूल्य तथ्याङ्क",
-        bgColor: "bg-fuchsia-500"
+        bgColor: "bg-fuchsia-500",
+        url:""
     },
     {
         icon: "gardener.png",
         service: "कृषि सामग्री ",
-        bgColor: "bg-yellow-500"
+        bgColor: "bg-yellow-500",
+        url:""
     },
     {
         icon: "dealer.png",
         service: " कृषि व्यापारीहरु",
-        bgColor: "bg-sky-500"
+        bgColor: "bg-sky-500",
+        url:""
     },
     {
         icon: "conversation.png",
         service: "कृषि सल्लाह",
-        bgColor: "bg-emerald-500"
+        bgColor: "bg-emerald-500",
+        url:""
     },
     {
         icon: "location.png",
         service: "बिरुवा संरक्षण",
-        bgColor: "bg-rose-500"
+        bgColor: "bg-rose-500",
+        url:""
     }
 
 ];
@@ -126,32 +132,38 @@ export const servicesList_eng =[
     {
         icon: './weatherapp.png',
         service: "weather",
-        bgColor: "bg-indigo-500"
+        bgColor: "bg-indigo-500",
+        url: "/weatherreport"
     },
     {
         icon: "growth.png",
         service: "Market Price",
-        bgColor: "bg-fuchsia-500"
+        bgColor: "bg-fuchsia-500",
+        url: "#"
     },
     {
         icon: "gardener.png",
         service: "Agro Inputs ",
-        bgColor: "bg-yellow-500"
+        bgColor: "bg-yellow-500",
+        url: "#"
     },
     {
         icon: "dealer.png",
         service: " Dealers",
-        bgColor: "bg-sky-500"
+        bgColor: "bg-sky-500",
+        url: "#"
     },
     {
         icon: "conversation.png",
         service: "Agro Advisory",
-        bgColor: "bg-emerald-500"
+        bgColor: "bg-emerald-500",
+        url: "#"
     },
     {
         icon: "location.png",
         service: "Plant Protection",
-        bgColor: "bg-rose-500"
+        bgColor: "bg-rose-500",
+        url: "#"
     }
 
 ];

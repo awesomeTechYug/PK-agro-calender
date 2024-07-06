@@ -57,7 +57,7 @@ const [daily, setDaily] = useState("")
         <>
             <div >
             <div className='pl-2'>
-                <select  defaultValue={city} onChange={handleChange}>
+                <select  defaultValue={city} onChange={handleChange} className='py-1 px-4 rounded-md bg-sky-100 border border-green-500'>
                     {
                         cities && cities.length > 0  && cities.map((city)=>{
                             return(
@@ -70,7 +70,7 @@ const [daily, setDaily] = useState("")
                 </select>
                 </div>
 
-               <div>
+               <div className='pt-5'>
                 <ul className='flex overflow-x-scroll'>                    
                {
                        daily && daily.length > 0 ? daily.map((item, index)=>{

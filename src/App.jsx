@@ -9,6 +9,7 @@ import PestInfoList from "./components/ListPages_Components/PestInfo";
 import AgroDepartmentlist from "./components/ListPages_Components/AgroDepartmentlist";
 import AgroTrainingsLists from "./components/ListPages_Components/Agrotrainingslist";
 import AgroGrantslist from "./components/ListPages_Components/AgroGrants_Aids_Policies";
+import DetailWeatherReport from "./components/weathercomponent/DetailWeatherReport";
 
 
 
@@ -25,7 +26,8 @@ function App() {
           <Route path="agrodepartment" element={<AgroDepartmentlist/>} />
           <Route path="agrotraining" element={<AgroTrainingsLists/>} />
           <Route path="agrogrants" element={<AgroGrantslist/>} />
-          <Route path="youtuberesources" element={<YoutubeResources/>} />
+          <Route path="videoresources" element={<YoutubeResources/>} />
+          <Route path="weatherreport" element={<DetailWeatherReport/>} />
         </Routes>
       </>
     );

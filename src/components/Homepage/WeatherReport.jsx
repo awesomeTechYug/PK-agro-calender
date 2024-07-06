@@ -32,7 +32,7 @@ function WeatherStatus(){
     return (
       <div>
         {weatherData && (
-          <div className="pt-3 -mb-3">
+          <div className="pt-1">
             <h2>{weatherData.name}</h2>
             <img  alt="PK"
                 // src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`}
@@ -76,12 +76,24 @@ function ADtoBS(){
 // calculateAge('YYYY-MM-DD') - calculate age from BS date.
     return(
         <>
-        <div className=' my-1 p-3'>
+        <div className=' pt-2'>
         <span>
             <h1>{nepalidate} BS</h1>
             <h2>{time.toLocaleTimeString()}</h2>
             </span>
+
+            <div className="mt-2 flex gap-2">
+            <a href="/krishipatro-info">
+            <img src="applogo.png" alt="PK Krishi Patro"  className="flex justify-center w-[55px] h-[33px] px-1   rounded-lg hover:border-4 border" />
+            </a>
+
+            <a href="/krishipatro-info">
+            <img src="krishiWatch_min.png" alt="PK Krishi Patro"  className="flex justify-center w-[55px] h-[33px]  px-1   rounded-lg hover:border-4 border" />
+            </a>
+            </div>
         </div>
+
+        
         
         </>
     )
