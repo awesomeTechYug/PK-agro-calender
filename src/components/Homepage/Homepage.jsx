@@ -34,7 +34,7 @@ return(
       </div>
 
 
-      <div className="my-5">
+      <div className="mb-5 mt-3">
       <div className="flex flex-col justify-center rounded-2xl  py-1 mx-auto border-green-800 hover:border-orange-500   bg-green-300 border-2 w-[370px]">
         {/* <TodayPrice/> */}
         <TodayPricewidget />

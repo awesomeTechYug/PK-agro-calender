@@ -4,8 +4,8 @@ function InfoServices(){
 
     return(
         <>
-        <div className="shadow-md w-[375px] mt-3">
-            <h2 className=" flex justify-center font-bold py-2">हाम्रा सेवाहरू </h2>
+        <div className="shadow-md w-[375px] mt-1">
+            <h2 className=" flex justify-center font-bold pb-2">हाम्रा सेवाहरू </h2>
 
             <div className="grid grid-cols-3 gap-2 ml-1 mb-3">
                {

@@ -19,13 +19,14 @@ function ResponsiveNav() {
         
         <body class=" font-sans leading-normal tracking-normal">
         
-            <nav class="flex items-center justify-between flex-wrap bg-gradient-to-r from-lime-100 to-green-200 p-1 fixed w-full z-10 top-0 lg:px-60 md:px-40">
+            <nav class="flex items-center justify-between flex-wrap bg-gradient-to-r from-lime-100 to-green-200 p-1 fixed w-full z-10 top-0 lg:px-32 md:px-20">
                 <div class="flex items-center flex-shrink-0 text-white mr-6">
-                    <a class="text-white no-underline hover:text-white hover:no-underline" href="/">
+                    <a class="" href="/">
                         <span class="text-2xl pl-2 flex gap-5">
-                        <img src="/logo_dark.png" alt="Logo pk calendar"  className=" h-10 rounded-full"/>
+                        <img src="logo_icon.svg" alt="Logo pk calendar"  className=" h-10 rounded-full"/>
                          <h3 class='flex items-center text-green-800 text-sm'>तपाईलाई स्वागत छ</h3>
-                         <i class="em em-grinning h-2"></i> 
+                         <p></p>
+                         {/* <i class="em em-grinning h-2"></i>  */}
                         </span>
                         
                     </a>

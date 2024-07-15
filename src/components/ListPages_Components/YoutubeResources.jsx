@@ -1,9 +1,15 @@
+import { newvideo, popularVideo } from "../../const/Youtubevideolist";
+import ResponsiveNav from "../Layout/responsiveNav";
+
 function YoutubeResources(){
     return(
         <>
         <>
-  {/* saved from url=(0039)https://podcas-landing-page.vercel.app/ */}
+        <ResponsiveNav/>
   <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Krishi Watch: कृषिमा सफलताको लागि, ज्ञान नै कुञ्जी हो।</title>
+  <meta name="description" content="मनपर्ने र चल्तीको कृषि अपनाएर आफ्नो कृषि उद्यमलाई सफल बनाउनुहोस्! कृषि वाच तपाईंको कृषि सफलताको लागि उत्तम साथी हो। आजै यसलाई प्रयास गर्नुहोस्!"/>
+
   <link
     rel="modulepreload"
     as="script"
@@ -22,15 +28,16 @@ function YoutubeResources(){
       <header className="absolute inset-x-0 top-0 py-3 z-50">
         <div className="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-screen-xl mx-auto relative">
           {/*[*/}
+          
         </div>
       </header>
       {/*[*/}
       {/*[*/}
       <div>
-        <section className="relative w-full">
-          <div className="absolute top-0 inset-x-0 h-64 flex items-start">
-            <div className="h-24 w-2/3 bg-gradient-to-br from-primary opacity-20 blur-2xl dark:from-[#570cac] dark:invisible dark:opacity-40" />
-            <div className="h-20 w-3/5 bg-gradient-to-r from-[#8cd66a] opacity-40 blur-2xl dark:from-[#670ccf] dark:opacity-40" />
+        <section className="relative w-full ">
+          <div className="absolute top-0 inset-x-0 h-64 flex items-start ">
+            <div className="h-24 w-2/3 bg-gradient-to-br from-emerald-400  opacity-20 blur-2xl dark:from-[#570cac] dark:invisible dark:opacity-40" />
+            <div className="h-20 w-3/5 bg-gradient-to-r from-[#8cd66a] to-emerald-400  opacity-40 blur-2xl dark:from-[#670ccf] dark:opacity-40" />
           </div>
           <div className="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-screen-xl mx-auto relative">
             {/*[*/}
@@ -42,43 +49,40 @@ function YoutubeResources(){
             </div>
             <div className="grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto">
               <div className="lg:py-6">
-                <div className="text-center lg:text-left">
-                  <span className="px-2 py-1 rounded-md bg-gray-100 dark:bg-body text-primary">
-                    New season available
+                <div className="text-center lg:text-left ">
+                  <span className="px-2 py-1 rounded-md bg-gray-100 dark:bg-body text-emerald-500">
+                  कृषि वाच - Selected Watchlist 
                   </span>
-                  <h1 className="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6xl">
+                  <h1 className=" text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6xl">
                     {" "}
-                    Find and listen <br /> Favorite{" "}
-                    <span className="text-transparent bg-clip-text bg-gradient-to-br from-primary to-[#8cd66a]">
-                      Podcast
-                    </span>{" "}
-                    on internet{" "}
+                    हेर्न  चाहेको <br />{" "} <p>_</p>
+                    <span className=" text-transparent bg-clip-text bg-gradient-to-br from-emerald-400  to-[#8cd66a]">
+                    कृषि   भिडियो 
+                    </span>{" "}<p>_</p>
+                    सजिलै भेट्नुहोस्{" "}
                   </h1>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-                  {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Illum, beatae omnis ipsa magnam neque ut nam nesciunt esse
-                  fugit praesentium hic magni possimus illo consequatur.{" "}
+                कृषि वाच तपाईंको कृषि सफलताको लागि उत्तम साथी हो।  जहाँ तपाईंले खोजेको कृषि सम्बन्धी कुनै पनि भिडियो सजिलै पाउनुहुनेछ। व्यावहारिक कृषि ज्ञानका लागि कृषि वाच उत्तम विकल्प हो।
                 </p>
                 <div className="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="https://www.youtube.com/channel/UCkCa9GvPUamY842uDv6IiHg"
                     className="router-link-active router-link-exact-active px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center"
                   >
-                    <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent" />
+                    <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-green-500 border-2 border-transparent" />
                     <span className="relative flex items-center justify-center text-white">
-                      {/*[*/} Join us {/*]*/}
+                      {/*[*/}अहिले हेर्नुहोस् {/*]*/}
                     </span>
                   </a>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="https://www.youtube.com/channel/UCkCa9GvPUamY842uDv6IiHg"
                     className="router-link-active router-link-exact-active px-6 md:px-7 py-3 rounded-full relative group"
                   >
                     {/**/}
-                    <span className="relative flex items-center justify-center text-primary">
+                    <span className="relative flex items-center justify-center text-green-500">
                       {/*[*/}
                       <div className="flex items-center gap-3">
                         <span className="p-2 rounded-full border border-primary">
@@ -97,7 +101,7 @@ function YoutubeResources(){
                             />
                           </svg>
                         </span>
-                        <span> Listening Episode </span>
+                        <span> नयाँ भिडियो </span>
                       </div>
                       {/*]*/}
                     </span>
@@ -107,36 +111,36 @@ function YoutubeResources(){
                   <div className="flex items-center text-center flex-col sm:flex-row gap-4 sm:gap-0">
                     <div className="flex items-center">
                       <img
-                        src="./ListingPageHome_files/sidebiew.webp"
+                        src="./tea.png"
                         width={40}
                         alt="avatar"
                         className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover"
                       />
                       <img
-                        src="./ListingPageHome_files/sidebiew.webp"
+                        src="./pk.png"
                         width={40}
                         alt="avatar"
                         className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover -ml-2.5"
                       />
                       <img
-                        src="./ListingPageHome_files/sidebiew.webp"
+                        src="./pk.png"
                         width={40}
                         alt="avatar"
                         className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover -ml-2.5"
                       />
                       <img
-                        src="./ListingPageHome_files/sidebiew.webp"
+                        src="./tea.png"
                         width={40}
                         alt="avatar"
                         className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover -ml-2.5"
                       />
-                      <span className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 bg-body-color flex items-center justify-center text-xs text-gray-300 object-cover -ml-2.5">
+                      <span className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 bg-body-color flex items-center justify-center text-xs bg-slate-600 text-gray-300 object-cover -ml-2.5">
                         {" "}
                         300+{" "}
                       </span>
                     </div>
                     <div className="pl-2 text-gray-600 dark:text-gray-200">
-                      WordWide listners{" "}
+                    विश्वभरी दर्शकहरू
                     </div>
                   </div>
                 </div>
@@ -144,9 +148,9 @@ function YoutubeResources(){
               <div className="lg:h-full hidden md:flex">
                 <div className="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
                   <div className="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-primary to-pink-300 dark:from-[#570cac] dark:to-primary blur-2xl" />
-                  <div className="absolute w-3/5 h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
+                  <div className="absolute w-3/5 h-full  p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
                     <img
-                      src="./ListingPageHome_files/sidebiew.webp"
+                      src="./pk.png"
                       alt="In studio"
                       width={500}
                       height="auto"
@@ -156,7 +160,7 @@ function YoutubeResources(){
                   </div>
                   <div className="absolute -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
                     <img
-                      src="./ListingPageHome_files/sidebiew.webp"
+                      src="./pk2.png"
                       alt="Happy in studio"
                       width={200}
                       height="auto"
@@ -176,18 +180,18 @@ function YoutubeResources(){
             <div className="flex justify-between items-center pb-6">
               <div className="">
                 <h2 className="text-2xl md:text-3xl text-gray-800 dark:text-white font-bold">
-                  Latest Podcast
+                नयाँ भिडियो
                 </h2>
               </div>
               <div className="flex items-center min-w-max relative">
                 <a
                   aria-current="page"
-                  href="https://podcas-landing-page.vercel.app/#"
+                  href="https://www.youtube.com/channel/UCkCa9GvPUamY842uDv6IiHg"
                   className="router-link-active router-link-exact-active px-6 md:px-7 py-3 rounded-full relative group"
                 >
-                  <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent" />
+                  <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-green-500 border-2 border-transparent" />
                   <span className="relative flex items-center justify-center text-white">
-                    {/*[*/} Explore more {/*]*/}
+                    {/*[*/} थप खोज्नुहोस् {/*]*/}
                   </span>
                 </a>
               </div>
@@ -239,14 +243,17 @@ function YoutubeResources(){
                   </span>
                 </button>
               </div>
+
               <div
                 data-slide-recent=""
-                className="flex items-stretch gap-5 overflow-hidden overflow-x-auto invisible-scroll"
+                className="flex items-stretch gap-5 overflow-hidden overflow-x-auto invisible-scroll" 
               >
-                <div className="w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
+              {newvideo.map((info, ind) => (
+             
+                <div key={ind} className="w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
                   <div className="w-full relative rounded-2xl overflow-hidden">
                     <img
-                      src="./ListingPageHome_files/sidebiew.jpg"
+                      src={info.img}
                       onerror="this.setAttribute('data-error', 1)"
                       width={2280}
                       alt="Cover image"
@@ -254,16 +261,16 @@ function YoutubeResources(){
                       className="w-full aspect-square object-cover rounded-2xl"
                     />
                     <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                      23min
+                      {info.time}
                     </span>
                     <div className="absolute py-2 px-3 md:py-3 md:px-4 bottom-0 h-28 flex flex-col justify-between inset-x-0 bg-gradient-to-t from-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-sm">
                       <h2 className="text-white font-semibold text-sm sm:text-base line-clamp-2">
-                        How to hack a website with Html in simple way
+                       {info.title}
                       </h2>
                       <div className="pt-2">
                         <a
                           aria-current="page"
-                          href="https://podcas-landing-page.vercel.app/#"
+                          href={info.link}
                           className="router-link-active router-link-exact-active flex items-center text-white rounded-full p-0.5 pr-2 gap-2 text-sm border border-gray-100/20 w-max"
                         >
                           <span className="p-1 rounded-full bg-primary">
@@ -282,148 +289,16 @@ function YoutubeResources(){
                               />
                             </svg>
                           </span>{" "}
-                          Play now{" "}
+                          अहिले हेर्नुहोस् 
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
-                  <div className="w-full relative rounded-2xl overflow-hidden">
-                    <img
-                      src="./ListingPageHome_files/podCast.jpg"
-                      onerror="this.setAttribute('data-error', 1)"
-                      width={2280}
-                      alt="Cover image"
-                      data-nuxt-img=""
-                      className="w-full aspect-square object-cover rounded-2xl"
-                    />
-                    <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                      1h:22min
-                    </span>
-                    <div className="absolute py-2 px-3 md:py-3 md:px-4 bottom-0 h-28 flex flex-col justify-between inset-x-0 bg-gradient-to-t from-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-sm">
-                      <h2 className="text-white font-semibold text-sm sm:text-base line-clamp-2">
-                        5 Principales you must know for writting clear code
-                      </h2>
-                      <div className="pt-2">
-                        <a
-                          aria-current="page"
-                          href="https://podcas-landing-page.vercel.app/#"
-                          className="router-link-active router-link-exact-active flex items-center text-white rounded-full p-0.5 pr-2 gap-2 text-sm border border-gray-100/20 w-max"
-                        >
-                          <span className="p-1 rounded-full bg-primary">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={20}
-                              height={20}
-                              viewBox="0 0 24 24"
-                              fill="currentColor"
-                              className="w-3 h-3"
-                            >
-                              <path
-                                fillRule="evenodd"
-                                d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                                clipRule="evenodd"
-                              />
-                            </svg>
-                          </span>{" "}
-                          Play now{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
-                  <div className="w-full relative rounded-2xl overflow-hidden">
-                    <img
-                      src="./ListingPageHome_files/sidebiew.jpg"
-                      onerror="this.setAttribute('data-error', 1)"
-                      width={2280}
-                      alt="Cover image"
-                      data-nuxt-img=""
-                      className="w-full aspect-square object-cover rounded-2xl"
-                    />
-                    <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                      12min
-                    </span>
-                    <div className="absolute py-2 px-3 md:py-3 md:px-4 bottom-0 h-28 flex flex-col justify-between inset-x-0 bg-gradient-to-t from-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-sm">
-                      <h2 className="text-white font-semibold text-sm sm:text-base line-clamp-2">
-                        Make you website request secure than you could mind
-                      </h2>
-                      <div className="pt-2">
-                        <a
-                          aria-current="page"
-                          href="https://podcas-landing-page.vercel.app/#"
-                          className="router-link-active router-link-exact-active flex items-center text-white rounded-full p-0.5 pr-2 gap-2 text-sm border border-gray-100/20 w-max"
-                        >
-                          <span className="p-1 rounded-full bg-primary">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={20}
-                              height={20}
-                              viewBox="0 0 24 24"
-                              fill="currentColor"
-                              className="w-3 h-3"
-                            >
-                              <path
-                                fillRule="evenodd"
-                                d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                                clipRule="evenodd"
-                              />
-                            </svg>
-                          </span>{" "}
-                          Play now{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
-                  <div className="w-full relative rounded-2xl overflow-hidden">
-                    <img
-                      src="./ListingPageHome_files/sidebiew.jpg"
-                      onerror="this.setAttribute('data-error', 1)"
-                      width={2280}
-                      alt="Cover image"
-                      data-nuxt-img=""
-                      className="w-full aspect-square object-cover rounded-2xl"
-                    />
-                    <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                      50min
-                    </span>
-                    <div className="absolute py-2 px-3 md:py-3 md:px-4 bottom-0 h-28 flex flex-col justify-between inset-x-0 bg-gradient-to-t from-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-sm">
-                      <h2 className="text-white font-semibold text-sm sm:text-base line-clamp-2">
-                        How to get started with desktop developpement
-                      </h2>
-                      <div className="pt-2">
-                        <a
-                          aria-current="page"
-                          href="https://podcas-landing-page.vercel.app/#"
-                          className="router-link-active router-link-exact-active flex items-center text-white rounded-full p-0.5 pr-2 gap-2 text-sm border border-gray-100/20 w-max"
-                        >
-                          <span className="p-1 rounded-full bg-primary">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={20}
-                              height={20}
-                              viewBox="0 0 24 24"
-                              fill="currentColor"
-                              className="w-3 h-3"
-                            >
-                              <path
-                                fillRule="evenodd"
-                                d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                                clipRule="evenodd"
-                              />
-                            </svg>
-                          </span>{" "}
-                          Play now{" "}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        
+              ))}
               </div>
+              
             </div>
             {/*]*/}
           </div>
@@ -444,13 +319,13 @@ function YoutubeResources(){
             <div className="flex justify-between pb-6 relative">
               <div className="">
                 <h2 className="text-2xl md:text-3xl text-gray-800 dark:text-white font-bold">
-                  Popular podcast
+                ट्रेन्डिङ भिडियो
                 </h2>
               </div>
               <div className="flex items-center min-w-max gap-5">
                 <a
                   aria-current="page"
-                  href="https://podcas-landing-page.vercel.app/#"
+                  href="https://www.youtube.com/channel/UCkCa9GvPUamY842uDv6IiHg"
                   className="router-link-active router-link-exact-active px-6 md:px-7 py-3 rounded-full relative group"
                 >
                   <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent" />
@@ -461,390 +336,58 @@ function YoutubeResources(){
               </div>
             </div>
             <div className="grid grid-cols-2 items-stretch sm:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-10 sm:gap-x-5 sm:gap-y-8">
-              <div className="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
-                <div className="relative h-max min-h-max">
-                  <img
-                    src="./ListingPageHome_files/podCast(1).jpg"
-                    onerror="this.setAttribute('data-error', 1)"
-                    width={280}
-                    alt="Cover image"
-                    data-nuxt-img=""
-                    className="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"
-                  />
-                  <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                    24min
-                  </span>
-                </div>
-                <div className="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 h-full flex flex-col justify-between">
-                  <div className="h-full">
-                    <h2 className="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
-                      Start your journey in SEO
-                    </h2>
-                  </div>
-                  <div className="pt-3 sm:pt-5 min-h-max h-max">
-                    <a
-                      aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
-                      className="router-link-active router-link-exact-active flex relative group items-center text-white px-5 py-2 bg-primary gap-1 text-sm w-max rounded-full"
-                    >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary" />
-                      <span className="relative flex items-center gap-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={20}
-                          height={20}
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          className="w-3 h-3"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                            clipRule="evenodd"
-                          />
-                        </svg>{" "}
-                        Play now{" "}
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
-                <div className="relative h-max min-h-max">
-                  <img
-                    src="./ListingPageHome_files/podCast(1).jpg"
-                    onerror="this.setAttribute('data-error', 1)"
-                    width={280}
-                    alt="Cover image"
-                    data-nuxt-img=""
-                    className="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"
-                  />
-                  <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                    24min
-                  </span>
-                </div>
-                <div className="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 h-full flex flex-col justify-between">
-                  <div className="h-full">
-                    <h2 className="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
-                      Start your journey in SEO
-                    </h2>
-                  </div>
-                  <div className="pt-3 sm:pt-5 min-h-max h-max">
-                    <a
-                      aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
-                      className="router-link-active router-link-exact-active flex relative group items-center text-white px-5 py-2 bg-primary gap-1 text-sm w-max rounded-full"
-                    >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary" />
-                      <span className="relative flex items-center gap-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={20}
-                          height={20}
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          className="w-3 h-3"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                            clipRule="evenodd"
-                          />
-                        </svg>{" "}
-                        Play now{" "}
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
-                <div className="relative h-max min-h-max">
-                  <img
-                    src="./ListingPageHome_files/podCast(1).jpg"
-                    onerror="this.setAttribute('data-error', 1)"
-                    width={280}
-                    alt="Cover image"
-                    data-nuxt-img=""
-                    className="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"
-                  />
-                  <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                    24min
-                  </span>
-                </div>
-                <div className="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 h-full flex flex-col justify-between">
-                  <div className="h-full">
-                    <h2 className="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
-                      Start your journey in SEO
-                    </h2>
-                  </div>
-                  <div className="pt-3 sm:pt-5 min-h-max h-max">
-                    <a
-                      aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
-                      className="router-link-active router-link-exact-active flex relative group items-center text-white px-5 py-2 bg-primary gap-1 text-sm w-max rounded-full"
-                    >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary" />
-                      <span className="relative flex items-center gap-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={20}
-                          height={20}
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          className="w-3 h-3"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                            clipRule="evenodd"
-                          />
-                        </svg>{" "}
-                        Play now{" "}
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
-                <div className="relative h-max min-h-max">
-                  <img
-                    src="./ListingPageHome_files/podCast(1).jpg"
-                    onerror="this.setAttribute('data-error', 1)"
-                    width={280}
-                    alt="Cover image"
-                    data-nuxt-img=""
-                    className="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"
-                  />
-                  <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                    24min
-                  </span>
-                </div>
-                <div className="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 h-full flex flex-col justify-between">
-                  <div className="h-full">
-                    <h2 className="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
-                      Start your journey in SEO
-                    </h2>
-                  </div>
-                  <div className="pt-3 sm:pt-5 min-h-max h-max">
-                    <a
-                      aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
-                      className="router-link-active router-link-exact-active flex relative group items-center text-white px-5 py-2 bg-primary gap-1 text-sm w-max rounded-full"
-                    >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary" />
-                      <span className="relative flex items-center gap-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={20}
-                          height={20}
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          className="w-3 h-3"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                            clipRule="evenodd"
-                          />
-                        </svg>{" "}
-                        Play now{" "}
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
-                <div className="relative h-max min-h-max">
-                  <img
-                    src="./ListingPageHome_files/podCast(1).jpg"
-                    onerror="this.setAttribute('data-error', 1)"
-                    width={280}
-                    alt="Cover image"
-                    data-nuxt-img=""
-                    className="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"
-                  />
-                  <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                    24min
-                  </span>
-                </div>
-                <div className="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 h-full flex flex-col justify-between">
-                  <div className="h-full">
-                    <h2 className="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
-                      Start your journey in SEO
-                    </h2>
-                  </div>
-                  <div className="pt-3 sm:pt-5 min-h-max h-max">
-                    <a
-                      aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
-                      className="router-link-active router-link-exact-active flex relative group items-center text-white px-5 py-2 bg-primary gap-1 text-sm w-max rounded-full"
-                    >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary" />
-                      <span className="relative flex items-center gap-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={20}
-                          height={20}
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          className="w-3 h-3"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                            clipRule="evenodd"
-                          />
-                        </svg>{" "}
-                        Play now{" "}
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
-                <div className="relative h-max min-h-max">
-                  <img
-                    src="./ListingPageHome_files/podCast(1).jpg"
-                    onerror="this.setAttribute('data-error', 1)"
-                    width={280}
-                    alt="Cover image"
-                    data-nuxt-img=""
-                    className="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"
-                  />
-                  <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                    24min
-                  </span>
-                </div>
-                <div className="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 h-full flex flex-col justify-between">
-                  <div className="h-full">
-                    <h2 className="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
-                      Start your journey in SEO
-                    </h2>
-                  </div>
-                  <div className="pt-3 sm:pt-5 min-h-max h-max">
-                    <a
-                      aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
-                      className="router-link-active router-link-exact-active flex relative group items-center text-white px-5 py-2 bg-primary gap-1 text-sm w-max rounded-full"
-                    >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary" />
-                      <span className="relative flex items-center gap-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={20}
-                          height={20}
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          className="w-3 h-3"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                            clipRule="evenodd"
-                          />
-                        </svg>{" "}
-                        Play now{" "}
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
-                <div className="relative h-max min-h-max">
-                  <img
-                    src="./ListingPageHome_files/podCast(1).jpg"
-                    onerror="this.setAttribute('data-error', 1)"
-                    width={280}
-                    alt="Cover image"
-                    data-nuxt-img=""
-                    className="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"
-                  />
-                  <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                    24min
-                  </span>
-                </div>
-                <div className="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 h-full flex flex-col justify-between">
-                  <div className="h-full">
-                    <h2 className="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
-                      Start your journey in SEO
-                    </h2>
-                  </div>
-                  <div className="pt-3 sm:pt-5 min-h-max h-max">
-                    <a
-                      aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
-                      className="router-link-active router-link-exact-active flex relative group items-center text-white px-5 py-2 bg-primary gap-1 text-sm w-max rounded-full"
-                    >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary" />
-                      <span className="relative flex items-center gap-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={20}
-                          height={20}
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          className="w-3 h-3"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                            clipRule="evenodd"
-                          />
-                        </svg>{" "}
-                        Play now{" "}
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
-                <div className="relative h-max min-h-max">
-                  <img
-                    src="./ListingPageHome_files/podCast(1).jpg"
-                    onerror="this.setAttribute('data-error', 1)"
-                    width={280}
-                    alt="Cover image"
-                    data-nuxt-img=""
-                    className="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"
-                  />
-                  <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-                    24min
-                  </span>
-                </div>
-                <div className="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 h-full flex flex-col justify-between">
-                  <div className="h-full">
-                    <h2 className="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
-                      Start your journey in SEO
-                    </h2>
-                  </div>
-                  <div className="pt-3 sm:pt-5 min-h-max h-max">
-                    <a
-                      aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
-                      className="router-link-active router-link-exact-active flex relative group items-center text-white px-5 py-2 bg-primary gap-1 text-sm w-max rounded-full"
-                    >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary" />
-                      <span className="relative flex items-center gap-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={20}
-                          height={20}
-                          viewBox="0 0 24 24"
-                          fill="currentColor"
-                          className="w-3 h-3"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-                            clipRule="evenodd"
-                          />
-                        </svg>{" "}
-                        Play now{" "}
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              {popularVideo.map((info, ind) => (
+                 <div className="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
+                 <div className="relative h-max min-h-max">
+                   <img
+                     src={info.img}
+                     onerror="this.setAttribute('data-error', 1)"
+                     width={280}
+                     alt="Cover image"
+                     data-nuxt-img=""
+                     className="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"
+                   />
+                   <span className="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-green-400">
+                     {info.time}
+                   </span>
+                 </div>
+                 <div className="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 h-full flex flex-col justify-between">
+                   <div className="h-full">
+                     <h2 className="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
+                       {info.title}
+                     </h2>
+                   </div>
+                   <div className="pt-3 sm:pt-5 min-h-max h-max">
+                     <a
+                       aria-current="page"
+                       href={info.link}
+                       className="router-link-active router-link-exact-active flex relative group items-center text-white px-5 py-2 bg-green-400 gap-1 text-sm w-max rounded-full"
+                     >
+                       <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-green-500" />
+                       <span className="relative flex items-center gap-3">
+                         <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           width={20}
+                           height={20}
+                           viewBox="0 0 24 24"
+                           fill="currentColor"
+                           className="w-3 h-3"
+                         >
+                           <path
+                             fillRule="evenodd"
+                             d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
+                             clipRule="evenodd"
+                           />
+                         </svg>{" "}
+                         हेर्नुहोस्
+                       </span>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+              ))}
+             
+              
             </div>
             {/*]*/}
           </div>
@@ -856,7 +399,7 @@ function YoutubeResources(){
               <div className="flex md:h-full">
                 <div className="w-full md:h-full rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
                   <img
-                    src="./ListingPageHome_files/concentrated-young-african-american.webp"
+                    src="pkfarm.png"
                     alt="Illustratuin about"
                     width={500}
                     className="w-full h-full object-cover rounded-2xl"
@@ -872,14 +415,12 @@ function YoutubeResources(){
                 </div>
                 <div className="relative">
                   <h2 className="text-2xl md:text-3xl text-gray-800 dark:text-white font-bold">
-                    We Share what we love the most with Tech Community
+                  कृषि सफलताको कुञ्जी : मनपर्ने र चल्तीको कृषि अपनाउनुहोस्
                   </h2>
                   <p className="text-gray-600 dark:text-gray-300 pt-8">
-                    {" "}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Alias labore quas natus? Repudiandae tempora autem corporis
-                    voluptatem ipsam voluptatibus culpa, cum a inventore animi
-                    suscipit odit dolorem. Omnis, dolore aperiam.{" "}
+                  मनपर्ने र चल्तीको कृषि अपनाएर आफ्नो कृषि उद्यमलाई सफल बनाउनुहोस्! 
+                  हाम्रो भिडियोहरूले तपाईंलाई विभिन्न कृषि प्रविधिहरू सिकाउँछन् जुन तपाईं आफ्नो बाली उत्पादन बढाउन र आफ्नो नाफा बढाउन प्रयोग गर्न सक्नुहुन्छ।
+                  मनपर्ने र चल्तीको कृषि अपनाएर, तपाईं आफ्नो बाली उत्पादन बढाउन, आफ्नो नाफा बढाउन र आफ्नो कृषि उद्यमलाई सफल बनाउन सक्नुहुन्छ।
                   </p>
                   <div className="grid grid-cols-3 gap-4 max-w-lg pt-8">
                     <div className="text-center rounded-xl bg-box-bg shadow-lg shadow-box-shadow border border-box-border p-3">
@@ -887,7 +428,7 @@ function YoutubeResources(){
                         + 45{" "}
                       </h3>
                       <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
-                        Episodes
+                      एपिसोडहरू
                       </p>
                     </div>
                     <div className="text-center rounded-xl bg-box-bg shadow-lg shadow-box-shadow border border-box-border p-3">
@@ -895,7 +436,7 @@ function YoutubeResources(){
                         + 500
                       </h3>
                       <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
-                        Lovely Listerners
+                      प्यारा दर्शकहरू
                       </p>
                     </div>
                     <div className="text-center rounded-xl bg-box-bg shadow-lg shadow-box-shadow border border-box-border p-3">
@@ -903,19 +444,19 @@ function YoutubeResources(){
                         + 5{" "}
                       </h3>
                       <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
-                        Years Experience
+                      वर्षको अनुभव
                       </p>
                     </div>
                   </div>
                   <div className="pt-10 flex">
                     <a
                       aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
+                      href="https://www.youtube.com/channel/UCkCa9GvPUamY842uDv6IiHg"
                       className="router-link-active router-link-exact-active px-6 md:px-7 py-3 rounded-full relative group"
                     >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent" />
+                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-green-500 border-2 border-transparent" />
                       <span className="relative flex items-center justify-center text-white">
-                        {/*[*/} Know more {/*]*/}
+                        {/*[*/} थप हेर्नुहोस् {/*]*/}
                       </span>
                     </a>
                   </div>
@@ -938,52 +479,48 @@ function YoutubeResources(){
                 </div>
                 <div className="relative">
                   <h2 className="text-2xl md:text-3xl text-gray-800 dark:text-white font-bold">
-                    Find out what makes up different from others
+                  तपाईंको कृषि ज्ञानको खजाना: मनपर्ने कृषिकारबाट सिक्नुहोस्
                   </h2>
                   <p className="text-gray-600 dark:text-gray-300 pt-8">
                     {" "}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Alias labore quas natus? Repudiandae tempora autem corporis
-                    voluptatem ipsam voluptatibus{" "}
+                    हाम्रो विशाल भिडियो संग्रहमा तपाईंले बाली उत्पादन, पशुपालन, बागवानी, मत्स्यपालन, र थप धेरै कृषि विषयहरूमा हजारौं भिडियोहरू पाउनुहुनेछ।
+                    यी भिडियोहरू अनुभवी कृषकहरू र कृषि विशेषज्ञहरूद्वारा बनाइएका छन्, जसले तपाईंलाई वास्तविक-विश्व कृषि कार्यहरू गर्न सिकाउँछन्।{" "}
                   </p>
                   <div className="space-y-4 pt-8">
                     <div className="p-4 rounded-xl border border-box-border transition hover:bg-gray-200 dark:hover:bg-box-bg">
                       <h3 className="text-gray-700 dark:text-gray-200 font-semibold text-xl">
-                        Last and feasible topics
+                      आधुनिक बाली उत्पादन प्रविधिहरू
                       </h3>
                       <p className="text-base text-gray-600 dark:text-gray-300">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit.
+                     अधिक नाफा दिने प्रविधि
                       </p>
+                
+                    </div>
+                    <div className="p-4 rounded-xl border border-box-border transition hover:bg-gray-200 dark:hover:bg-box-bg">
+                     
+                      <h3 className="text-gray-700 dark:text-gray-200 font-semibold text-xl">
+                      मौसम-अनुकूल बागवानी
+                      </h3>
                     </div>
                     <div className="p-4 rounded-xl border border-box-border transition hover:bg-gray-200 dark:hover:bg-box-bg">
                       <h3 className="text-gray-700 dark:text-gray-200 font-semibold text-xl">
-                        Last and feasible topics
+                      घरमै तरकारी खेती
                       </h3>
                       <p className="text-base text-gray-600 dark:text-gray-300">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit.
+                      जैविक कृषि
                       </p>
-                    </div>
-                    <div className="p-4 rounded-xl border border-box-border transition hover:bg-gray-200 dark:hover:bg-box-bg">
-                      <h3 className="text-gray-700 dark:text-gray-200 font-semibold text-xl">
-                        Last and feasible topics
-                      </h3>
-                      <p className="text-base text-gray-600 dark:text-gray-300">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit.
-                      </p>
+                     
                     </div>
                   </div>
                   <div className="pt-10 flex">
                     <a
                       aria-current="page"
-                      href="https://podcas-landing-page.vercel.app/#"
+                      href="https://www.youtube.com/channel/UCkCa9GvPUamY842uDv6IiHg"
                       className="router-link-active router-link-exact-active px-6 md:px-7 py-3 rounded-full relative group"
                     >
-                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent" />
+                      <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-green-500 border-2 border-transparent" />
                       <span className="relative flex items-center justify-center text-white">
-                        {/*[*/} Start Listning {/*]*/}
+                        {/*[*/} हेर्न सुरु गर्नुहोस्{/*]*/}
                       </span>
                     </a>
                   </div>
@@ -993,13 +530,13 @@ function YoutubeResources(){
                 <div className="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-primary to-pink-300 dark:from-[#570cac] dark:to-primary blur-2xl" />
                 <div className="w-full h-[27rem] sm:h-[30rem] md:h-full flex justify-start md:justify-end relative pb-5">
                   <img
-                    src="./ListingPageHome_files/podCast.webp"
+                    src="./darklogo.png"
                     alt="Podcast image"
                     width={300}
                     className="w-2/5 aspect-square absolute bottom-0 right-0 md:left-0 object-cover rounded-t-[30%] rounded-b-[30%] border-4 border-box-border shadow-md shadow-box-shadow"
                   />
                   <img
-                    src="./ListingPageHome_files/concentrated-young-african-american.webp"
+                    src="./me.png"
                     alt="Illustratuin about"
                     width={500}
                     className="w-11/12 lg:w-5/6 h-full object-cover rounded-t-[10rem] rounded-b-[10rem] md:rounded-t-[11rem] md:rounded-b-[11rem] lg:rounded-t-[14rem] lg:rounded-b-[14rem]"
@@ -1029,20 +566,20 @@ function YoutubeResources(){
               <div className="mx-auto text-center max-w-xl md:max-w-2xl relative">
                 <h2 className="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6x">
                   {" "}
-                  New Episodes will{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-br from-primary to-[#8cd66a]">
-                    always
+                  नयाँ भिडियोहरू {" "}
+                  <span className="text-transparent bg-clip-text bg-gradient-to-br from-emerald-500 to-[#8cd66a]">
+                  सधैं नियमित
                   </span>{" "}
-                  updated regularly{" "}
+                  रूपमा अपडेट हुनेछन्
                 </h2>
                 <p className="text-gray-600 dark:text-gray-300 pt-8 mx-auto max-w-xl">
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Sapiente delectus architecto ullam earum{" "}
+                  हाम्रो भिडियोहरू अनुभवी कृषकहरूद्वारा बनाइएका छन् जसले तपाईंलाई वास्तविक-विश्व कृषि ज्ञान प्रदान गर्छन्।
+                  आजै "कृषि वाच"   सदस्यता लिनुहोस् र आफ्नो कृषि सफलताको यात्रा सुरु गर्नुहोस्!{" "}
                 </p>
                 <div className="mx-auto max-w-md sm:max-w-xl pt-10">
                   <form
-                    action="https://podcas-landing-page.vercel.app/"
+                    action="https://www.youtube.com/channel/UCkCa9GvPUamY842uDv6IiHg"
                     className="flex items-center relative gap-x-2"
                   >
                     <input
@@ -1052,13 +589,13 @@ function YoutubeResources(){
                     />
                     <div className="sm:inline-flex sm:min-w-max absolute sm:relative top-0.5 right-0.5 sm:top-0 sm:right-0">
                       <button className="min-w-max p-3 sm:py-3 sm:px-6 text-white border-2 border-transparent relative group">
-                        <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary" />
+                        <span className="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-green-500" />
                         <span
                           aria-hidden="true"
                           className="relative hidden sm:flex"
                         >
                           {" "}
-                          Subsribe{" "}
+                          सदस्यता लिनुहोस्{" "}
                         </span>
                         <span className="relative flex sm:hidden">
                           <svg
@@ -1095,21 +632,22 @@ function YoutubeResources(){
             <div className="col-span-2 md:col-span-4 lg:col-span-2">
               <a
                 aria-current="page"
-                href="https://podcas-landing-page.vercel.app/"
+                href="/"
                 className="router-link-active router-link-exact-active flex items-center gap-2"
               >
                 <span className="flex">
                   <span className="w-3 h-6 rounded-l-full flex bg-primary" />
-                  <span className="w-3 h-6 rounded-r-full flex bg-[#f88fc2] mt-2" />
+                  <span className="w-3 h-6 rounded-r-full flex bg-[#8cd66a] mt-2" />
                 </span>
                 <span className="text-xl font-bold text-gray-700 dark:text-white">
-                  Podux
+                Sampurna Krishi : सम्पुर्ण कृषि
                 </span>
               </a>
               <p className="text-gray-600 dark:text-gray-300 pt-6">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                nemo, veritatis{" "}
+              
+              कृषि वाचले तपाईंलाई मनपर्ने कृषिकारहरूबाट सिक्न र आफ्नो कृषि ज्ञान बढाउन मद्दत गर्छ। 
+              अनि कृषि क्षेत्रका उत्कृष्ट र नवीनतम भिडियोहरूको संग्रह प्रदान गर्दछ।{" "}
               </p>
             </div>
             <div className="">
@@ -1121,7 +659,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     About us
@@ -1130,7 +668,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     News
@@ -1139,7 +677,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Team
@@ -1148,7 +686,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Solution
@@ -1166,7 +704,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Developpers
@@ -1175,7 +713,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Integration
@@ -1184,7 +722,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Pricing
@@ -1202,7 +740,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Contact-us
@@ -1211,7 +749,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Licence
@@ -1220,7 +758,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Terms
@@ -1229,7 +767,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     FAQ
@@ -1247,7 +785,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     About us
@@ -1256,7 +794,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     News
@@ -1265,7 +803,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Team
@@ -1274,7 +812,7 @@ function YoutubeResources(){
                 <li>
                   <a
                     aria-current="page"
-                    href="https://podcas-landing-page.vercel.app/#"
+                    href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
                     Solution
@@ -1286,62 +824,7 @@ function YoutubeResources(){
           </div>
           {/*]*/}
         </div>
-        <div className="py-2 bg-gray-200 dark:bg-[rgb(10,16,29)]">
-          <div className="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-screen-xl mx-auto">
-            {/*[*/}
-            <div className="flex justify-between items-center gap-5 text-gray-600 dark:text-gray-300">
-              <div className="">
-                {" "}
-                © 2024 Allright Reserved. Designed by{" "}
-                <a
-                  href="https://podcas-landing-page.vercel.app/#"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="font-bold text-primary"
-                >
-                  Kat Mj
-                </a>
-              </div>
-              <div className="flex items-center gap-x-3">
-                <a
-                  href="https://podcas-landing-page.vercel.app/#"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="transition hover:!text-primary"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={20}
-                    height={20}
-                    fill="currentColor"
-                    className="w-5 h-5"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                  </svg>
-                </a>
-                <a
-                  href="https://github.com/johnkat-mj"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="transition hover:!text-primary"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={20}
-                    height={20}
-                    fill="currentColor"
-                    className="w-5 h-5"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-            {/*]*/}
-          </div>
-        </div>
+        
       </footer>
     </div>
     {/*]*/}

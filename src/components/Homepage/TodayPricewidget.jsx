@@ -1,7 +1,7 @@
 function TodayPricewidget() {
     return (
       <>
-        <div className="h-[75vh] w-[360px] overflow-scroll flex justify-center ">
+        <div className="h-[70vh] w-[360px] overflow-scroll flex justify-center ">
         <iframe className=" "
           src="https://nepalicalendar.rat32.com/vegetable/embed.php"
           frameborder="0"
