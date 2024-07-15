@@ -87,7 +87,7 @@ function ADtoBS(){
             <img src="applogo.png" alt="PK Krishi Patro"  className="flex justify-center w-[55px] h-[33px] px-1   rounded-lg hover:border-4 border" />
             </a>
 
-            <a href="/krishipatro-info">
+            <a href="/videoresources">
             <img src="krishiWatch_min.png" alt="PK Krishi Patro"  className="flex justify-center w-[55px] h-[33px]  px-1   rounded-lg hover:border-4 border" />
             </a>
             </div>

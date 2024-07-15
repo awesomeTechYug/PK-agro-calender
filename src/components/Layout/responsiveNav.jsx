@@ -44,13 +44,13 @@ function ResponsiveNav() {
                             <a class="inline-block py-2 px-4 text-lime-700 no-underline" href="/">दैनिक मूल्य</a>
                         </li>
                         <li class="mr-3">
-                            <a class="inline-block text-green-800 no-underline hover:text-yellow-600 hover:text-underline py-2 px-4" href="#">कृषि पात्रो</a>
+                            <a class="inline-block text-green-800 no-underline hover:text-yellow-600 hover:text-underline py-2 px-4" href="/krishipatro-info">कृषि पात्रो</a>
                         </li>
                         <li class="mr-3">
-                            <a class="inline-block text-green-800 no-underline hover:text-yellow-600 hover:text-underline py-2 px-4" href="#">हाम्रा सेवाहरू</a>
+                            <a class="inline-block text-green-800 no-underline hover:text-yellow-600 hover:text-underline py-2 px-4" href="/videoresources">कृषि-Watch</a>
                         </li>
                         <li class="mr-3">
-                            <a class="inline-block text-green-800 no-underline hover:text-yellow-600 hover:text-underline py-2 px-4" href="/contact">सम्पर्क</a>
+                            <a class="inline-block text-green-800 no-underline hover:text-yellow-600 hover:text-underline py-2 px-4" href="/contact">हाम्रा सेवाहरू</a>
                         </li>
                     </ul>
                 </div>

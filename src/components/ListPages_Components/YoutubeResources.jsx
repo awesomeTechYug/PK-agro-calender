@@ -652,7 +652,7 @@ function YoutubeResources(){
             </div>
             <div className="">
               <h2 className="text-xl font-bold text-gray-700 dark:text-white">
-                Enterprise
+              आधारभूत जानकारी
               </h2>
               <ul className="pt-6 space-y-3">
                 {/*[*/}
@@ -662,7 +662,7 @@ function YoutubeResources(){
                     href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
-                    About us
+                    हामी बारे
                   </a>
                 </li>
                 <li>
@@ -671,7 +671,7 @@ function YoutubeResources(){
                     href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
-                    News
+                   सम्पर्क गर्नुहोस्
                   </a>
                 </li>
                 <li>
@@ -680,7 +680,7 @@ function YoutubeResources(){
                     href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
-                    Team
+                   गोपनीयता नीति
                   </a>
                 </li>
                 <li>
@@ -689,7 +689,7 @@ function YoutubeResources(){
                     href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
-                    Solution
+                    सेवाका सर्तहरू
                   </a>
                 </li>
                 {/*]*/}
@@ -697,7 +697,7 @@ function YoutubeResources(){
             </div>
             <div className="">
               <h2 className="text-xl font-bold text-gray-700 dark:text-white">
-                Ressources
+                Resources
               </h2>
               <ul className="pt-6 space-y-3">
                 {/*[*/}
@@ -707,7 +707,7 @@ function YoutubeResources(){
                     href="/"
                     className="router-link-active router-link-exact-active transition text-gray-600 dark:text-gray-300 hover:!text-primary"
                   >
-                    Developpers
+                   Technicians
                   </a>
                 </li>
                 <li>

@@ -34,6 +34,7 @@ function Layout({children}){
        </span>
        <span className="flex justify-center gap-5 py-3">
        <a href="/krishipatro-info" className=" hover:text-amber-600"><h2> कृषि पात्रो</h2></a>
+       <a href="/videoresources" className=" hover:text-amber-600"><h2> कृषि-Watch</h2></a>
        <a href="/about" className=" hover:text-amber-600"><h2>हाम्रो बारेमा</h2></a>
        <a href="/contact" className=" hover:text-amber-600"><h2>सम्पर्क</h2></a>
        </span>
